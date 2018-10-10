@@ -1,18 +1,18 @@
 ﻿using JetBrains.Annotations;
 
-namespace Lykke.Service.NexchangeAdapter.Client
+namespace Lykke.Service.NxchangeAdapter.Client
 {
     /// <summary>
-    /// NexchangeAdapter client interface.
+    /// NxchangeAdapter client interface.
     /// </summary>
     [PublicAPI]
-    public interface INexchangeAdapterClient
+    public interface INxchangeAdapterClient
     {
         // Make your app's controller interfaces visible by adding corresponding properties here.
-        // NO actual methods should be placed here (these go to controller interfaces, for example - INexchangeAdapterApi).
+        // NO actual methods should be placed here (these go to controller interfaces, for example - INxchangeAdapterApi).
         // ONLY properties for accessing controller interfaces are allowed.
 
         /// <summary>Application Api interface</summary>
-        INexchangeAdapterApi Api { get; }
+        INxchangeAdapterApi Api { get; }
     }
 }

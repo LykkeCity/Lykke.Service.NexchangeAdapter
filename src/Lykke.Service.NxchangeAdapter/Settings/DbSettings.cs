@@ -1,6 +1,6 @@
 ﻿using Lykke.SettingsReader.Attributes;
 
-namespace Lykke.Service.NexchangeAdapter.Settings
+namespace Lykke.Service.NxchangeAdapter.Settings
 {
     public class DbSettings
     {

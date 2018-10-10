@@ -1,10 +1,9 @@
 ﻿using JetBrains.Annotations;
-using Lykke.SettingsReader.Attributes;
 
-namespace Lykke.Service.NexchangeAdapter.Settings
+namespace Lykke.Service.NxchangeAdapter.Settings
 {
     [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-    public class NexchangeAdapterSettings
+    public class NxchangeAdapterSettings
     {
         public DbSettings Db { get; set; }
     }

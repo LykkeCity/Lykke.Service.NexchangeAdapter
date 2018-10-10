@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lykke.Service.NxchangeAdapter.Client</name>
+    </assembly>
+    <members>
+        <member name="T:Lykke.Service.NxchangeAdapter.Client.AutofacExtension">
+            <summary>
+            Extension for client registration
+            </summary>
+        </member>
+        <member name="M:Lykke.Service.NxchangeAdapter.Client.AutofacExtension.RegisterNxchangeAdapterClient(Autofac.ContainerBuilder,Lykke.Service.NxchangeAdapter.Client.NxchangeAdapterServiceClientSettings,System.Func{Lykke.HttpClientGenerator.HttpClientGeneratorBuilder,Lykke.HttpClientGenerator.HttpClientGeneratorBuilder})">
+            <summary>
+            Registers <see cref="T:Lykke.Service.NxchangeAdapter.Client.INxchangeAdapterClient"/> in Autofac container using <see cref="T:Lykke.Service.NxchangeAdapter.Client.NxchangeAdapterServiceClientSettings"/>.
+            </summary>
+            <param name="builder">Autofac container builder.</param>
+            <param name="settings">NxchangeAdapter client settings.</param>
+            <param name="builderConfigure">Optional <see cref="T:Lykke.HttpClientGenerator.HttpClientGeneratorBuilder"/> configure handler.</param>
+        </member>
+        <member name="T:Lykke.Service.NxchangeAdapter.Client.INxchangeAdapterApi">
+            <summary>
+            NxchangeAdapter client API interface.
+            </summary>
+        </member>
+        <member name="T:Lykke.Service.NxchangeAdapter.Client.INxchangeAdapterClient">
+            <summary>
+            NxchangeAdapter client interface.
+            </summary>
+        </member>
+        <member name="P:Lykke.Service.NxchangeAdapter.Client.INxchangeAdapterClient.Api">
+            <summary>Application Api interface</summary>
+        </member>
+        <member name="T:Lykke.Service.NxchangeAdapter.Client.NxchangeAdapterClient">
+            <summary>
+            NxchangeAdapter API aggregating interface.
+            </summary>
+        </member>
+        <member name="P:Lykke.Service.NxchangeAdapter.Client.NxchangeAdapterClient.Api">
+            <summary>Inerface to NxchangeAdapter Api.</summary>
+        </member>
+        <member name="M:Lykke.Service.NxchangeAdapter.Client.NxchangeAdapterClient.#ctor(Lykke.HttpClientGenerator.IHttpClientGenerator)">
+            <summary>C-tor</summary>
+        </member>
+        <member name="T:Lykke.Service.NxchangeAdapter.Client.NxchangeAdapterServiceClientSettings">
+            <summary>
+            NxchangeAdapter client settings.
+            </summary>
+        </member>
+        <member name="P:Lykke.Service.NxchangeAdapter.Client.NxchangeAdapterServiceClientSettings.ServiceUrl">
+            <summary>Service url.</summary>
+        </member>
+    </members>
+</doc>

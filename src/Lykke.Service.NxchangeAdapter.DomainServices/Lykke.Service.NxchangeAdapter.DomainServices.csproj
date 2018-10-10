@@ -4,6 +4,6 @@
     <Version>1.0.0</Version>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lykke.Service.NexchangeAdapter.Domain\Lykke.Service.NexchangeAdapter.Domain.csproj" />
+    <ProjectReference Include="..\Lykke.Service.NxchangeAdapter.Domain\Lykke.Service.NxchangeAdapter.Domain.csproj" />
   </ItemGroup>
 </Project>

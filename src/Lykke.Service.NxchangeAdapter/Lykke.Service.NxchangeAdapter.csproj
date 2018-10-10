@@ -25,8 +25,8 @@
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lykke.Service.NexchangeAdapter.Domain\Lykke.Service.NexchangeAdapter.Domain.csproj" />
-    <ProjectReference Include="..\Lykke.Service.NexchangeAdapter.DomainServices\Lykke.Service.NexchangeAdapter.DomainServices.csproj" />
+    <ProjectReference Include="..\Lykke.Service.NxchangeAdapter.DomainServices\Lykke.Service.NxchangeAdapter.DomainServices.csproj" />
+    <ProjectReference Include="..\Lykke.Service.NxchangeAdapter.Domain\Lykke.Service.NxchangeAdapter.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
