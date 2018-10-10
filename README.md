@@ -1,2 +1,2 @@
 # Lykke.Service.NexchangeAdapter
-Adapter for NExchange
+Adapter for Nxchange
