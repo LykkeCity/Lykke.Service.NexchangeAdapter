@@ -1,23 +1,18 @@
-﻿using JetBrains.Annotations;
-using Lykke.Logs.Loggers.LykkeSlack;
+﻿using System;
+using JetBrains.Annotations;
 using Lykke.Sdk;
-using Lykke.Sdk.Health;
-using Lykke.Sdk.Middleware;
-using Lykke.Service.NexchangeAdapter.Settings;
+using Lykke.Service.NxchangeAdapter.Settings;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using System;
 
-namespace Lykke.Service.NexchangeAdapter
+namespace Lykke.Service.NxchangeAdapter
 {
     [UsedImplicitly]
     public class Startup
     {
         private readonly LykkeSwaggerOptions _swaggerOptions = new LykkeSwaggerOptions
         {
-            ApiTitle = "NexchangeAdapter API",
+            ApiTitle = "NxchangeAdapter API",
             ApiVersion = "v1"
         };
 
@@ -30,15 +25,15 @@ namespace Lykke.Service.NexchangeAdapter
 
                 options.Logs = logs =>
                 {
-                    logs.AzureTableName = "NexchangeAdapterLog";
-                    logs.AzureTableConnectionStringResolver = settings => settings.NexchangeAdapterService.Db.LogsConnString;
+                    logs.AzureTableName = "NxchangeAdapterLog";
+                    logs.AzureTableConnectionStringResolver = settings => settings.NxchangeAdapterService.Db.LogsConnString;
 
                     // TODO: You could add extended logging configuration here:
                     /* 
                     logs.Extended = extendedLogs =>
                     {
                         // For example, you could add additional slack channel like this:
-                        extendedLogs.AddAdditionalSlackChannel("NexchangeAdapter", channelOptions =>
+                        extendedLogs.AddAdditionalSlackChannel("NxchangeAdapter", channelOptions =>
                         {
                             channelOptions.MinLogLevel = LogLevel.Information;
                         });

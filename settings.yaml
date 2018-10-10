@@ -1,10 +1,10 @@
-NexchangeAdapterService:
+NxchangeAdapterService:
     Db:
         LogsConnString:
             settings-key: LogsConnString
             types:
               - AzureTableStorage
-NexchangeAdapterJob:
+NxchangeAdapterJob:
   Db:
     LogsConnString:
       settings-key: LogsConnString

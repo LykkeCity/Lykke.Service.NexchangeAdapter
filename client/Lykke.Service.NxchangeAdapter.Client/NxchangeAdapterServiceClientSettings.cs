@@ -1,11 +1,11 @@
 ﻿using Lykke.SettingsReader.Attributes;
 
-namespace Lykke.Service.NexchangeAdapter.Client 
+namespace Lykke.Service.NxchangeAdapter.Client 
 {
     /// <summary>
-    /// NexchangeAdapter client settings.
+    /// NxchangeAdapter client settings.
     /// </summary>
-    public class NexchangeAdapterServiceClientSettings 
+    public class NxchangeAdapterServiceClientSettings 
     {
         /// <summary>Service url.</summary>
         [HttpCheck("api/isalive")]

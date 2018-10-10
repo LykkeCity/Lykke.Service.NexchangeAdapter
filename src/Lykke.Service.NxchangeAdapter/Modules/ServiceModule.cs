@@ -1,8 +1,8 @@
 ﻿using Autofac;
-using Lykke.Service.NexchangeAdapter.Settings;
+using Lykke.Service.NxchangeAdapter.Settings;
 using Lykke.SettingsReader;
 
-namespace Lykke.Service.NexchangeAdapter.Modules
+namespace Lykke.Service.NxchangeAdapter.Modules
 {
     public class ServiceModule : Module
     {

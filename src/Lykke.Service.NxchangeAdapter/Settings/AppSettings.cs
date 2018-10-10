@@ -1,11 +1,11 @@
 ﻿using JetBrains.Annotations;
 using Lykke.Sdk.Settings;
 
-namespace Lykke.Service.NexchangeAdapter.Settings
+namespace Lykke.Service.NxchangeAdapter.Settings
 {
     [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
     public class AppSettings : BaseAppSettings
     {
-        public NexchangeAdapterSettings NexchangeAdapterService { get; set; }
+        public NxchangeAdapterSettings NxchangeAdapterService { get; set; }
     }
 }
